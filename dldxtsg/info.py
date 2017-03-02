@@ -3,6 +3,8 @@ from bs4 import BeautifulSoup
 import pymysql
 import re
 
+#保存账户信息至数据库
+
 def openDb():
     """打开数据库"""
     #连接配置信息
